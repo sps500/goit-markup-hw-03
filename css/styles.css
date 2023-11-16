@@ -192,8 +192,6 @@ a:hover {
 }
 
 .container-section-two {
-  /* padding: 120px 156px; */
-
   display: flex;
   gap: 24px;
 }
@@ -211,19 +209,17 @@ img {
   text-transform: capitalize;
   font-weight: 500;
   text-align: center;
-  background-color: #f4f4fd;
+  /* background-color: #f4f4fd; */
 
   margin-bottom: 72px;
+}
+.card-our-team p {
+  text-align: center;
 }
 .our-team-list {
   display: flex;
   margin-bottom: 72px;
   gap: 24px;
-}
-
-.our-team-list > .foto {
-  padding-top: 232px;
-  padding-bottom: 120px;
 }
 
 .foto {
