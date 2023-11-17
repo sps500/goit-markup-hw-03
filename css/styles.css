@@ -4,14 +4,16 @@ body {
   background: #fff;
   color: #434455;
 }
-h1 h3 {
-  margin: 0;
+h1,
+h2,
+h3,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
   padding: 0;
 }
-/* div {
-  margin-left: 156px;
-  margin-right: ;
-} */
+
 ul {
   list-style-type: none;
   padding-left: 0;
@@ -22,26 +24,24 @@ ul {
   font-weight: 700;
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
 
-  width: 1158px;
+  width: 100%;
   background: var(--WHITE, #fff);
   margin-top: 0;
+  margin-bottom: 0;
 }
 .page_header > .container {
   display: flex;
-  margin: 0 auto;
   padding: 0 15px 0 15px;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 .container {
-  /* outline: 2px solid tomato; */
-  display: inline-block;
-
-  width: 1158px;
+  max-width: 1158px;
   margin: 0 auto;
-  padding: 0 15px 0 15px;
+  padding: 0 15px;
 }
 .container-header {
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
+  justify-content: space-between;
 }
 .menu {
   /* padding-top: 24px;
@@ -53,7 +53,6 @@ ul {
 .menu-address {
   display: flex;
   gap: 40px;
-  margin-left: auto;
 }
 
 .item {
@@ -64,7 +63,7 @@ ul {
 
 .site-menu {
   display: flex;
-  /* justify-content: left;  */
+  justify-content: left;
   align-items: center;
 }
 .item:last-child {
@@ -93,10 +92,13 @@ ul {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
+
+  padding-left: 0;
 }
 
 a {
   text-decoration-line: none;
+  /* display: block; */
 }
 a:focus {
   color: #404bbf;
@@ -140,9 +142,10 @@ a:hover {
 /* section */
 .section-one {
   background-color: #2e2f42;
-
+  min-height: 600px;
   padding: 188px 0;
   margin-top: 0;
+  margin-bottom: 0;
 }
 .container_centre {
   text-align: center;
@@ -177,10 +180,11 @@ a:hover {
 
 .start-section-two {
   padding: 120px 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .list-section-two {
-  /* display: flex;  */
   width: 264px;
   flex-direction: column;
   align-items: flex-start;
@@ -199,6 +203,8 @@ a:hover {
 /* section 4 */
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .our-team {
@@ -273,12 +279,17 @@ img {
 .section-our-team {
   background-color: #f4f4fd;
   padding: 120px 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  min-height: 732px;
 }
 
 /* section 4 */
 
 .section-portfolio {
   padding: 120px 0 120px 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .container-portfolio {
   display: flex;
@@ -355,7 +366,9 @@ img {
 /* footer */
 .footer-main {
   background-color: #2e2f42;
-
+  margin-top: 0;
+  margin-bottom: 0;
+  min-height: 312px;
   padding: 100px 0;
 }
 .footer-p {
