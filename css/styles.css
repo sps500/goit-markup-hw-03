@@ -142,7 +142,7 @@ a:hover {
 /* section */
 .section-one {
   background-color: #2e2f42;
-  /* padding: 188px 0; */
+  padding: 188px 0;
   margin-top: 0;
   padding-bottom: 188px;
 }
@@ -155,7 +155,7 @@ a:hover {
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
-  padding-top: 188px;
+  /* padding-top: 188px; */
   margin-left: auto;
   margin-right: auto;
   margin-top: 0;
@@ -235,6 +235,8 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+
+  border-radius: 0px 0px 4px 4px;
 }
 .our-foto {
   /* margin-bottom: 32px; */
@@ -260,10 +262,11 @@ img {
   line-height: 1.2; /* 120% */
   letter-spacing: 0.4px;
   font-weight: 500;
+  margin-bottom: 8px;
 }
 .card-our-team > .section-two {
   text-align: center;
-  /* margin-bottom: 8px; */
+  margin-bottom: 8px;
 }
 .section-our-team {
   background-color: #f4f4fd;
@@ -301,6 +304,7 @@ img {
 }
 .content-portfolio h3 {
   text-align: left;
+  margin-bottom: 8px;
 }
 /* small_text */
 .main-content {
@@ -310,9 +314,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-top: 8px;
-
-  /* text-align: center; */
+  /* padding-bottom: 8px; */
 }
 
 /* Button Text */
