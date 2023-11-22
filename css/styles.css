@@ -225,7 +225,7 @@ img {
 }
 .our-team-list {
   display: flex;
-  margin-bottom: 72px;
+
   gap: 24px;
 }
 
@@ -292,7 +292,6 @@ img {
 .container-portfolio li:nth-child(3n + 3) {
   margin-bottom: 0;
   margin-right: 0;
-  /* outline: 2px solid tomato; */
 }
 .list-portfolio {
   width: calc(100% - 48px) / 3;
